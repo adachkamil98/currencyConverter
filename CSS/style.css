@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: black;
+    max-width: 1200px;
+    font-family: 'Saira Stencil One', cursive;
+    padding: 10px;
+    text-align: center;
+}
+
+.header {
+    background-color: hsl(102, 41%, 75%);
+    padding: 6px;
+    color: rgba(139, 108, 30, 0.884);
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    letter-spacing: 3px;
+    text-shadow: -10px 10px 5px rgba(60, 51, 44, 0.364);
+}
+    
+.footer {
+    font-size: small;
+    padding: 10px;
+    background-color: rgb(112, 136, 102);
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+}
