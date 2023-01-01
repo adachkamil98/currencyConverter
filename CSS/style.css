@@ -12,6 +12,11 @@ html {
     max-width: 800px;
     font-family: 'Saira Stencil One', cursive;
     text-align: center;
+    background-image: url("../images/GTA-SA-wallpaper.jpg");
+    resize: both;
+    overflow: auto;
+    background-position: center;
+    background-size: cover;
 }
 
 .header {
@@ -30,12 +35,4 @@ html {
     background-color: rgb(112, 136, 102);
     text-align: center;
     border-radius: 0px 0px 15px 15px;
-}
-
-.element {
-    background-image: url("../images/GTA-SA-wallpaper.jpg");
-    resize: both;
-    overflow: auto;
-    background-position: center;
-    background-size: cover;
 }
