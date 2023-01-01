@@ -13,10 +13,9 @@ html {
     font-family: 'Saira Stencil One', cursive;
     text-align: center;
     background-image: url("../images/GTA-SA-wallpaper.jpg");
-    resize: both;
     overflow: auto;
-    background-position: center;
-    background-size: cover;
+    background-position:top right;
+    background-size: 120% ;
 }
 
 .header {
