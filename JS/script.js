@@ -1,4 +1,5 @@
-console.log("Hello World!!!");
+{
+  console.log("Hello World!!!");
 
 const formElement = document.querySelector(".js-form");
 const resultElement = document.querySelector(".js-result");
@@ -27,3 +28,4 @@ formElement.addEventListener("submit", (event) => {
 
   resultElement.innerText = `${result.toFixed(2)} ${currency}`;
 });
+}
