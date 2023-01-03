@@ -17,6 +17,7 @@ const exchangeRates = {
   SEK: 0.4266,
   NZD: 2.8232,
 };
+
 formElement.addEventListener("submit", (event) => {
   event.preventDefault();
 

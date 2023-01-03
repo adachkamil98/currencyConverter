@@ -18,13 +18,13 @@ html {
     text-align: center;
     background-image: url("../images/GTA-SA-wallpaper.jpg");
     overflow: visible;
-    background-position:right;
+    background-position: right;
     background-size: 120%;
 }
-    
+
 .footer {
     font-size: small;
-    padding:20px 20px 10px 20px;
+    padding: 20px 20px 10px 20px;
     text-align: bottom;
-    
+
 }
