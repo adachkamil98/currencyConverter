@@ -8,30 +8,23 @@ html {
 
 .body {
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     padding: 30px;
-    max-width: 800px;
+    max-width: 1000px;
     font-family: 'Saira Stencil One', cursive;
     text-align: center;
     background-image: url("../images/GTA-SA-wallpaper.jpg");
-    overflow: auto;
-    background-position:top right;
-    background-size: 120% ;
-}
-
-.header {
-    background-color: hsl(102, 41%, 75%);
-    padding: 6px;
-    color: rgba(139, 108, 30, 0.884);
-    text-align: center;
-    border-radius: 15px 15px 0px 0px;
-    letter-spacing: 3px;
-    text-shadow: -10px 10px 5px rgba(60, 51, 44, 0.364);
+    overflow: visible;
+    background-position:right;
+    background-size: 120%;
 }
     
 .footer {
     font-size: small;
-    padding: 10px;
-    background-color: rgb(112, 136, 102);
-    text-align: center;
-    border-radius: 0px 0px 15px 15px;
+    padding:20px 20px 10px 20px;
+    text-align: bottom;
+    
 }
