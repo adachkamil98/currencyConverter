@@ -1,6 +1,7 @@
 .form {
     background-color: hsl(102, 23%, 62%);
-    padding: 20px;
+    padding:  20px 20px 0px 20px;
+    border-radius: 15px;
     overflow-x: auto;
 }
 
@@ -34,7 +35,7 @@
 }
 
 .form__legend {
-    padding: 5px;
+    padding: 10px;
     font-size: x-large;
     font-style: italic;
     border: groove;
