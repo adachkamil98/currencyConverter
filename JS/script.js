@@ -21,23 +21,27 @@
 
     const inputElement = document.querySelector(".js-inputValue");
     const currencyUnit = document.querySelector(".js-currency");
-    const resultElement = document.querySelector(".js-result");
 
     const amount = +inputElement.value;
     const currency = currencyUnit.value;
     const result = amount / exchangeRates[currency];
-    resultElement.innerText = `${result.toFixed(2)} ${currency}`;
 
-    onFormSubmit();
+    updateResultText(currency, result);
+  }
+
+  const updateResultText = (currency, result) => {
+
+    const resultElement = document.querySelector(".js-result");
+    resultElement.innerText = `${result.toFixed(2)} ${currency}`;
   }
 
   const init = () => {
     const formElement = document.querySelector(".js-form");
 
     formElement.addEventListener("submit", onFormSubmit);
-  }
 
-  welcome();
+    welcome();
+  }
 
   init();
 }
